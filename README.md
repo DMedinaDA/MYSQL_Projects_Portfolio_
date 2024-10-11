@@ -1,3 +1,4 @@
-**Data Cleaning of Global Layoffs Dataset**: Removed duplicates, standardized data formats, and handled null values for accurate analysis.
-- **Exploratory Data Analysis on Layoffs**: Analyzed trends in layoffs by company and year, identifying patterns and insights.
-- **US Household Income Analysis**: Cleaned and explored income data to highlight states with the highest and lowest averages.
+# Welcome to My Data Analytics Portfolio
+
+Explore my projects showcasing data cleaning and exploratory data analysis using MySQL. You'll find detailed analyses of global layoffs, including data standardization, handling null values, and generating insights on trends. Each project demonstrates my skills in SQL, data manipulation, and visualization techniques, reflecting my commitment to transforming raw data into actionable insights.
+Looking to join a great data team! Be blessed! 
