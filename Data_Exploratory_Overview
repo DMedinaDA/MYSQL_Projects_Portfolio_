@@ -1,0 +1,39 @@
+# Global Layoffs Data Cleaning Project
+
+## Overview
+This project involves cleaning and preprocessing a dataset containing information about layoffs from companies around the world. The data cleaning process was performed using MySQL.
+
+## Key Steps
+
+1. **Duplicate Removal**
+   - Created a staging table with an additional 'row_num' column
+   - Used ROW_NUMBER() function to identify and remove duplicates
+
+2. **Data Standardization**
+   - Trimmed leading and trailing spaces from company names
+   - Standardized industry names (e.g., unified 'Crypto' and 'Cryptocurrency')
+   - Corrected country names (removed trailing periods)
+
+3. **Date Formatting**
+   - Converted date strings to proper DATE format
+   - Handled multiple date formats using CASE statements
+
+4. **Handling Null and Blank Values**
+   - Identified and filled null values in the industry column
+   - Used self-join technique to populate missing industry data
+
+5. **Column Management**
+   - Removed unnecessary columns (e.g., 'row_num')
+   - Deleted rows with null values in critical columns
+
+## Skills Demonstrated
+- MySQL data manipulation
+- Common Table Expressions (CTEs)
+- Window functions (ROW_NUMBER())
+- String functions (TRIM, LIKE)
+- Date conversion (STR_TO_DATE)
+- Table alterations (ALTER TABLE)
+- Self-joins for data population
+
+## Outcome
+The resulting clean dataset is now ready for exploratory data analysis, providing a solid foundation for insights into global layoff trends.
