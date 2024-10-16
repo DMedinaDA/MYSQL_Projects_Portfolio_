@@ -1,0 +1,41 @@
+This project involves cleaning and analyzing US household income data, focusing on data extraction, transformation, 
+and exploratory analysis to uncover insights related to household income across various states and types of areas.
+
+***Key Findings ***
+States with larger land masses tend to have higher average incomes.
+Urban areas often report lower median incomes compared to suburban areas.
+The analysis identified several cities with exceptionally high average household incomes, indicating localized wealth concentrations.
+
+Data Cleaning ***
+The data cleaning process included the following steps:
+
+Removing Duplicates:***
+Identified and deleted duplicate records using SQL queries with ROW_NUMBER() to partition by id.
+
+Renaming Columns:***
+Fixed issues with column names for clarity, such as renaming ï»¿id to id.
+
+Standardizing State Names:***
+Corrected inconsistencies in state names (e.g., changing 'georia' to 'Georgia').
+
+Handling Missing Values:***
+Addressed missing values in land and water area metrics.
+
+Data Integrity Checks:***
+Conducted checks for unique entries to ensure data integrity before analysis.
+
+***Exploratory Data Analysis***
+The exploratory analysis involved several SQL queries to extract insights:
+
+Income Distribution by State:***
+Analyzed average household income by state, identifying states with the highest and lowest average incomes.
+
+Type of Area Analysis:***
+Explored income levels based on the type of area (e.g., urban, suburban), revealing economic disparities.
+
+City-Level Income Insights:***
+Examined average incomes at the city level within states, highlighting cities with significant wealth.
+
+Aggregation of Land and Water Areas:***
+Investigated the relationship between land/water areas and household income.
+
